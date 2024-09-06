@@ -1,0 +1,50 @@
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão bonita */
+    text-align: center; /* Centraliza o texto no corpo */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 20px auto; /* Espaço ao redor do header */
+    padding: 20px;
+}
+
+img {
+    width: 50%; /* Ajusta a largura da imagem */
+    max-width: 400px; /* Define um limite máximo para a largura */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+h1 {
+    color: brown;
+    font-size: 2.5em; /* Tamanho do texto */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+hr {
+    border: 0;
+    height: 8px;
+    background: brown;
+    width: 80%; /* Largura do separador */
+    margin: 20px auto; /* Espaço ao redor do separador */
+}
+
+main {
+    padding: 20px;
+}
+
+p {
+    margin: 10px 0; /* Espaço entre os parágrafos */
+}
+
+a {
+    color: #0066cc; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 1.2em; /* Tamanho da fonte dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
